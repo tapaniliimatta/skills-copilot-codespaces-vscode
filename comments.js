@@ -65,5 +65,3 @@ var Comment = mongoose.model('Comment', commentSchema);
 app.get('/', function(req, res) {
   res.redirect('/comments');
 });
-
-/
